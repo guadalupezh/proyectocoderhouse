@@ -1,0 +1,78 @@
+
+/* variables */
+$pDesktop:15px;
+$fontFamily: "poppins";
+$Desktop:40px;
+$Desktoph4:10px;
+
+
+.col-lg-6{
+	h2{
+	font:{
+	     size:$pDesktop;
+	     fontfamily:$fontFamily;
+	     weight:regular;
+	    }
+	}
+	h1{
+	font:{
+	     size:$Desktop;
+	     fontfamily:$fontFamily;
+	     fontweight:bold;
+	     }
+	}
+	h4{
+	font:{
+	     size:$Desktoph4;
+	     fontfamily:$fontFamily;
+	     fontweight:regular;
+	     }
+
+	}
+	h5{
+	font:{
+	     size:50px;
+	     fontfamily:$fontFamily;
+	     foontweight: bold;
+	}
+	}
+}
+.tarjeta {
+	&__titulo {
+	    fontsize:50px;
+	}
+	&__restaurant {
+	    fontsize:15px;
+	    fontweight:bold;
+	}
+	&__ubicacion {
+	    fontsize:10px;
+	    fontweight:medium;
+	}
+	&__miperfil {
+	    fontsize:30px;
+	    fontweight: medium;
+	}
+	&__form {
+	    fontsize:30px;
+	    fontweight: regular;
+	}
+}
+
+.texto{
+	&__parrafo {
+	    fontsize: 40px;
+	    fontweight: medium;
+	}
+}
+
+/*map-get*/
+
+$estilos: (
+color: black,
+centro: center,
+upper: uppercase,
+tFuente: 20px,
+1rem: 1rem,
+)
+

@@ -1,0 +1,61 @@
+
+/* variables */
+$naranja:orange;
+$negro:black;
+$rosa:pink;
+$rojo:red;
+$blanco:white;
+
+.col-lg-6{
+	h1{
+	  color:$naranja;
+	}
+	h2{
+	  color:$naranja;
+	}
+	h4{
+	  color:$negro;
+	}
+	h5{
+	  color:$blanco;
+	}
+}
+.texto {
+	background: linear-gradient (to bottom, orange, yellow);
+	&__encabezado {
+	     color:$naranja;
+	}
+	&__parrafo{
+	&__parrafo--naranja{
+	     color:$naranja;
+	}
+	&__parrafo--negro{
+	     color:$negro;
+	     }
+	}
+}
+.tarjeta {
+	&__titulo{
+	    &__titulo--rosa{color:$rosa;}
+	    &__titulo--negro{color:$negro}
+	    &__titulo--blanco{color:$blanco}
+	}
+	&__restaurant{
+	    &__restaurant--negro{color:$negro}
+	}
+	&__ubicacion {
+	    color:$negro;
+	}
+	&__miperfil{
+	    &__miperfil--rojo{
+	    color:$rojo;
+	    }
+	}
+	
+}
+
+@each $color in $naranja , $negro , $rosa {
+	.#{$color} {
+        color:#{$color};
+	}
+}

@@ -1,0 +1,118 @@
+/* variables */
+.col-lg-6 h1 {
+  color: orange; }
+
+.col-lg-6 h2 {
+  color: orange; }
+
+.col-lg-6 h4 {
+  color: black; }
+
+.col-lg-6 h5 {
+  color: white; }
+
+.texto {
+  background: linear-gradient to bottom, orange, yellow; }
+  .texto__encabezado {
+    color: orange; }
+  .texto__parrafo__parrafo--naranja {
+    color: orange; }
+  .texto__parrafo__parrafo--negro {
+    color: black; }
+
+.tarjeta__titulo__titulo--rosa {
+  color: pink; }
+
+.tarjeta__titulo__titulo--negro {
+  color: black; }
+
+.tarjeta__titulo__titulo--blanco {
+  color: white; }
+
+.tarjeta__restaurant__restaurant--negro {
+  color: black; }
+
+.tarjeta__ubicacion {
+  color: black; }
+
+.tarjeta__miperfil__miperfil--rojo {
+  color: red; }
+
+.orange {
+  color: orange; }
+
+.black {
+  color: black; }
+
+.pink {
+  color: pink; }
+
+/* variables */
+.col-lg-6 h2 {
+  font-size: 15px;
+  font-fontfamily: "poppins";
+  font-weight: regular; }
+
+.col-lg-6 h1 {
+  font-size: 40px;
+  font-fontfamily: "poppins";
+  font-fontweight: bold; }
+
+.col-lg-6 h4 {
+  font-size: 10px;
+  font-fontfamily: "poppins";
+  font-fontweight: regular; }
+
+.col-lg-6 h5 {
+  font-size: 50px;
+  font-fontfamily: "poppins";
+  font-foontweight: bold; }
+
+.tarjeta__titulo {
+  fontsize: 50px; }
+
+.tarjeta__restaurant {
+  fontsize: 15px;
+  fontweight: bold; }
+
+.tarjeta__ubicacion {
+  fontsize: 10px;
+  fontweight: medium; }
+
+.tarjeta__miperfil {
+  fontsize: 30px;
+  fontweight: medium; }
+
+.tarjeta__form {
+  fontsize: 30px;
+  fontweight: regular; }
+
+.texto__parrafo {
+  fontsize: 40px;
+  fontweight: medium; }
+
+/*map-get*/
+/* variables */
+.col-50 {
+  width: 50%; }
+
+.btn, .btn--aceptar, .btn--cancelar, .btn--nada {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  text-align: center; }
+
+.btn--aceptar {
+  background-color: orange;
+  color: white; }
+
+.btn--cancelar {
+  background-color: red;
+  color: white; }
+
+.btn--nada {
+  background-color: blue;
+  color: white; }
