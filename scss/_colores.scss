@@ -5,10 +5,11 @@ $negro:black;
 $rosa:pink;
 $rojo:red;
 $blanco:white;
+$gris:darkgrey;
 
 .col-lg-6{
 	h1{
-	  color:$naranja;
+	  color:$negro;
 	}
 	h2{
 	  color:$naranja;
@@ -34,6 +35,7 @@ $blanco:white;
 	     }
 	}
 }
+
 .tarjeta {
 	&__titulo{
 	    &__titulo--rosa{color:$rosa;}

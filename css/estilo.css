@@ -116,3 +116,12 @@
 .btn--nada {
   background-color: blue;
   color: white; }
+
+.scale {
+  width: 800px;
+  height: 450px;
+  align-content: center;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
